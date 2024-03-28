@@ -19,13 +19,5 @@ ul, li {
   margin: 0; 
 }
 
-.item {
-   border-radius: 8px;
-padding: 16px;
-width: 392px;
-margin-bottom: 24px;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
- background: #fff;
- 
-}
+
 

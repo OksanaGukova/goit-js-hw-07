@@ -28,7 +28,7 @@ ul, li {
   gap: 100px;
 }
 
-li {
+.gallery li {
 width: 350px;
   height: 250px;
 }

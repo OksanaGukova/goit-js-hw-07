@@ -160,3 +160,7 @@ margin-right: 16px;
 [data-destroy]:hover {
   background: #ff7070;
 }
+
+input:hover {
+  border: 1px solid #000000;
+}

@@ -42,3 +42,14 @@ img:hover {
 transform: scale(1.5); 
   transition: transform 0.3; 
 }
+
+
+   #boxes {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .box {
+      width: 30px;
+      height: 30px;
+      margin: 5px;
+    }

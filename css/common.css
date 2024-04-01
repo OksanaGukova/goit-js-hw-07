@@ -13,10 +13,22 @@ body {
   line-height: 1.5;
 }
 
-ul, li {
-   list-style: none;
-   padding: 0; 
-  margin: 0; 
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item li {
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  background: #f6f6fe;
+  letter-spacing: 0.04em;
+  text-align: justify;
+  padding: 8px 16px;
 }
 
 .gallery {
@@ -29,7 +41,7 @@ ul, li {
 }
 
 .gallery li {
-width: 350px;
+  width: 350px;
   height: 250px;
 }
 
@@ -39,18 +51,112 @@ img {
 }
 
 img:hover {
-transform: scale(1.5); 
-  transition: transform 0.3; 
+  transform: scale(1.5);
+  transition: transform 0.3;
+}
+
+.login-form button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+  border: none;
+  letter-spacing: 0.04em;
+color: #fff;
+}
+
+#name-input {
+  width: 360px;
+  height: 40px;
+  letter-spacing: 0.04em;
+  border: 1px solid #808080;
+border-radius: 4px;
+padding: 8px 16px;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+letter-spacing: 0.04em;
 }
 
 
-   #boxes {
-      display: flex;
-      flex-wrap: wrap;
-    }
-    
-    .box {
-      width: 30px;
-      height: 30px;
-      margin: 20px;
-    }
+.login-form input {
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+border-radius: 4px;
+padding: 8px 16px;
+
+}
+
+.login-form button:hover {
+  background: #6c8cff;
+  
+}
+
+.login-form input {
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+}
+
+.widget button {
+  border-radius: 8px;
+padding: 8px 16px;
+width: 148px;
+height: 40px;
+background: #4e75ff;
+letter-spacing: 0.04em;
+color: #fff;
+border: none;
+}
+
+#controls input {
+  border: 1px solid #808080;
+border-radius: 8px;
+width: 150px;
+height: 40px;
+text-align: center;
+margin-right: 16px;
+} 
+
+#controls button {
+  border-radius: 8px;
+padding: 8px 16px;
+width: 120px;
+height: 40px;
+border: none;
+letter-spacing: 0.04em;
+color: #fff;
+margin-right: 16px;
+}
+
+[data-create] {
+  background: #4e75ff;
+}
+
+[data-create]:hover {
+  background: #6c8cff;
+}
+
+[data-destroy] {
+  background: #ff4e4e;
+}
+
+[data-destroy]:hover {
+  background: #ff7070;
+}
